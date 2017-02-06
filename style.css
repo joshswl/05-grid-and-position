@@ -17,5 +17,50 @@ img {
 }
 
 .banner {
+  padding: 1rem;
+  background: #00b2ff;
+  color: white;
+  margin-top: -0.2rem;
+}
+
+.banner__navbar {
+  margin-left: 1.3rem;
+  margin-right: 1.3rem;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar__group {
+  text: transparent;
+  overflow: auto;
+}
+
+.navbar__group--left {
+
+}
+
+.navbar__group--right {
+
+}
+
+.nav-list {
+  display: flex;
+  margin: -0.5rem -1rem;
+  justify-content: space-between;
+}
+
+.nav-list__item {
+  margin: 0.5rem 1rem;
+}
+
+.banner__tagline {
+
+}
+
+.banner__footer {
 
 }
