@@ -16,19 +16,14 @@ img {
   max-width: 100%;
 }
 
-
-/*navbar*/
-
 .banner {
   padding: 1rem;
   background: #00b2ff;
   color: white;
-  margin-top: -0.2rem;
 }
 
 .banner__navbar {
-  margin-left: 1.3rem;
-  margin-right: 1.3rem;
+  margin: 0 1rem;
 }
 
 .navbar {
@@ -51,8 +46,6 @@ img {
 .nav-list__item {
   margin: 0.5rem 1rem;
 }
-
-/*grid*/
 
 .section {
   padding: 1rem;
@@ -77,12 +70,6 @@ img {
 
 }
 
-/*top box*/
-
-
-
-/*image*/
-
 .img {
   position: relative;
   top: 4.1%;
@@ -97,8 +84,6 @@ img {
   border-radius: 50%;
   box-shadow: 4px 4px 3px #888888;
 }
-
-/*content*/
 
 .content {
   width: 27rem;
@@ -133,13 +118,6 @@ img {
 }
 
 .content__bottom {
-  padding-right: 1rem;
-  padding-left: 1rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding: 0.5rem 1rem;
   margin: 0;
-}
-
-.content__bottom-text {
-
 }
