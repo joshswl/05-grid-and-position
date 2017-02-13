@@ -66,14 +66,16 @@ img {
   margin: 1rem;
   flex-basis: calc(100% / 2 - 2rem);
   flex-grow: 1;
-  position: relative;
+}
 
+.content__top {
+  position: relative;
+  padding: 3rem;
+  margin: 0;
+  background: #e3bb2f;
 }
 
 .img {
-  position: relative;
-  top: 4.1%;
-  right: 12%;
   background: grey solid 2px;
   padding: 1rem;
 }
@@ -86,26 +88,17 @@ img {
 }
 
 .content {
-  width: 27rem;
   box-shadow: 4px 4px 3px #888888;
 }
 
-.content__top {
-  padding: 3rem;
-  margin: 0;
-  background: #e3bb2f;
-}
 
 .top__box {
+  width: 10rem;
   position: absolute;
-  padding: 0.75rem;
+  top: 0;
   margin: 0;
   background: #00a2fe;
   box-shadow: 4px 4px 3px #888888;
-  width: 10rem;
-  height: 2.5rem;
-  top: 2.5%;
-  left: 26.5%;
 }
 
 .top__box-text {
