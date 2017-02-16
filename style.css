@@ -18,7 +18,7 @@ img {
 
 .banner {
   padding: 1rem;
-  background: #00b2ff;
+  background: #2196F3;
   color: white;
 }
 
@@ -66,48 +66,52 @@ img {
   margin: 1rem;
   flex-basis: calc(100% / 2 - 2rem);
   flex-grow: 1;
+  box-shadow: 4px 4px 3px #888888;
 }
 
 .content__top {
   position: relative;
-  padding: 3rem;
+  padding: 2.2rem;
   margin: 0;
-  background: #e3bb2f;
+  background: #FDCC52;
+}
+
+.content__top-text {
+
 }
 
 .img {
+  position: absolute;
   background: grey solid 2px;
-  padding: 1rem;
+  top: 0.8rem;
+  left: -1.7rem;
+
 }
 
 .img2 {
-  position: absolute;
-  width: 5rem;
+  width: 3.5rem;
   border-radius: 50%;
   box-shadow: 4px 4px 3px #888888;
 }
 
 .content {
-  box-shadow: 4px 4px 3px #888888;
+
 }
 
-
 .top__box {
-  width: 10rem;
   position: absolute;
-  top: 0;
+  align-items: center;
+  padding: 0.7rem;
+  top: -1.5rem;
+  left: 12.5rem;
   margin: 0;
-  background: #00a2fe;
+  background: #2196F3;
   box-shadow: 4px 4px 3px #888888;
 }
 
 .top__box-text {
   color: white;
   text-align: center;
-}
-
-.content__top-text {
-  float: left;
 }
 
 .content__bottom {
