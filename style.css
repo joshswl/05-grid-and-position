@@ -83,8 +83,9 @@ margin-left: 1rem;
 .img {
   position: absolute;
   background: grey solid 2px;
-  top: 0.8rem;
-  left: -1.7rem;
+  top: 50%;
+  left: 0;
+  transform: translate(-50%, -50%);
 
 }
 
